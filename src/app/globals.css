@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+html {
+  cursor: none; /* Hides the default cursor so our custom one shows */
+}
+
+/* Ensure links and buttons also hide the default pointer so our custom cursor doesn't flicker */
+a, button, input, [role="button"] {
+  cursor: none !important; 
+}
